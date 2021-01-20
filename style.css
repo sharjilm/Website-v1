@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+  }
+
+/*-- Navigation --*/
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: #213A52!important;
+}
+.navbar-brand img {
+    height: 2.5rem;
+}
+.navbar-nav li {
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+    padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1789FA;
+    /*color: #7EBAF9;*/
+}
+
+/*-- Landing Page --*/
+
+.home-inner {
+    background-image: url(img/blockchain.jpg);
+}
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    color: #FFFFFF;
+    /*text-transform: uppercase;*/
+}
+.caption h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0rem;
+    text-shadow: .1rem .1rem .8rem #000000;
+    padding-bottom: .7rem;
+}
+.caption h3 {
+    font-size: 1.5rem;
+    text-shadow: .1rem .1rem .5rem #000000;
+    padding-bottom: 1.8rem;
+}
+.btn-lg {
+    border-width: medium;
+    border-radius: 10;
+    padding: .6rem 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/*-- About Section --*/
+
+.narrow {
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+  }
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+.heading-underline-about {
+    width: 3rem;
+    height: .2rem;
+    background-color: #1789FA;
+    margin: 0 auto .8rem;
+  }
+
+/*-- Project Section --*/
+
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #1789FA;
+    margin: 0rem auto .8rem;
+  }
+.textOverImage{
+    display: block;
+    margin-bottom : 20px;
+    margin-right: 20px;
+    left: 5%;
+    right: 5%;
+    position:relative;
+    padding: 10 px;
+    width: 45%;
+    min-height: 300px;
+    float: left;
+    background-size:100%;
+    background-position:center;
+    transition:0.7s;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }  
+.textOverImage:hover{
+    background-size:110%;
+  } 
+.textOverImage:after{
+    position:absolute;
+    top:89%;
+    bottom:0;
+    left:0;
+    right:0;
+    white-space:pre-wrap;
+    overflow:hidden;
+    background-color:rgba(0,0,0,0.3);
+    color:#fff;
+    padding:0 8px;
+    content:attr(data-text);
+    transition:1s;
+    border-radius: 10px;
+  } 
+.textOverImage:hover:after{
+    top:0;
+    padding:8px;
+    background-color:rgba(0,0,0,0.6);
+  }
+.textOverImage:first-line{
+    color:#fff;
+    font-weight: normal;
+    font-size:1.5em;
+}
+
+/*--- Contact Section --*/
+
+footer {
+    background-color: #213A52;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2.5em 0 1em;
+    font-size: 1.5rem;
+    font-weight: reg;
+}
+.footer a { 
+    color: inherit;
+    text-decoration: none;
+}
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 2.5em;
+    padding: 0;
+}
+.social-list__item {
+    margin: 0 .5em;
+}
+.social-list__link {
+    padding: .5em;
+}
+i {
+    color: var(--clr-grey);
+    font-size: 32pt;
+}
+.copyright-text {
+    font-size: 10px;
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
