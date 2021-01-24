@@ -145,35 +145,47 @@ body {
 footer {
     background-color: #213A52;
     color: #FFFFFF;
-    text-align: center;
-    padding: 2.5em 0 1em;
-    font-size: 1.5rem;
-    font-weight: reg;
-}
-.footer a { 
-    color: inherit;
-    text-decoration: none;
-}
-.social-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 1em 0 2.5em;
-    padding: 0;
-}
-.social-list__item {
-    margin: 0 .5em;
-}
-.social-list__link {
-    padding: .5em;
-}
-i {
-    color: var(--clr-grey);
-    font-size: 32pt;
-}
-.copyright-text {
-    font-size: 10px;
-}
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+  }
+  footer img {
+    height: 5rem;
+    margin: 1.5rem 0;
+  }
+  footer a {
+    color: white;
+  }
+  footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 0rem 1rem 0 0;
+    color: #70b1dd;
+  }
+  footer svg.svg-inline--fa:hover {
+    color: #1789FA!important;
+  }
+  hr.socket {
+    width: 100%;
+    border-top: .2rem solid #1789FA;
+    margin-top: .5rem;
+  }
+  .btn-sm {
+    border-width: small;
+    border-radius: 15;
+    padding: .6rem 1rem;
+    font-size: .8rem;
+    font-weight: 500;
+    border-color: #1789FA;
+    color: #1789FA;
+  }
+  .btn-sm:hover {
+    background-color:#1789FA;
+    border-color: #1789FA;
+    color: #785964;
+  }
+  .copyright {
+    color: #FFFFFF;
+    font-size: .8rem;
+  }
 
 /*============ BOOTSTRAP BREAK POINTS:
 
