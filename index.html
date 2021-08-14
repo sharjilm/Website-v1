@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -66,7 +66,7 @@
 		<div class="heading-underline-about"></div>
 		<div class="row">
 		<div class="col-md-8" style="text-align:left">
-		<p>Hello and welcome to my portfolio! My name is Sharjil Mohsin and I'm currently in my 3rd year of the Software Engineering and Management program at McMaster University in Hamilton, Ontario, Canada.<br><br>
+		<p>Hello and welcome to my portfolio! My name is Sharjil Mohsin and I'm currently in my 4th year of the Software Engineering and Management program at McMaster University in Hamilton, Ontario, Canada.<br><br>
 			My interest in the world of technology started when I took computer science in high school. It was there when I realized coding was something I was good at and ended up being interested in it. This was the turning point in my life that helped me choose software engineering as
 			my career choice. I have a lot of interest in the emerging world of new technologies such as the rapid expansion of artificial intelligence, quantum computing, the introduction of the 5G network and Starlink. By tackling real-world problems through my side projects, 
 			I desire to improve my understanding of the changing technologies to contribute to a brighter and cleaner world.
@@ -87,18 +87,59 @@
 		<h6>Here are some of the project work I've done. Click <a href="https://www.github.com/sharjilm" class="link-projects">here</a> to learn more as well as to check out my other projects.</h6>
 		<div class="card-deck"> 
 			
-			<!-- COVID App Card -->
+			<!-- Image Repo Card -->
 			<div class="col-md-6 col-lg-4" style="margin-top:2%">
 				<div class="card">
-				  <img class="card-img-top" src="img/covid19_3.png" alt="COVID-19 logo">
+				  <img class="card-img-top" src="img/image-repo2.jpeg" alt="Image Repo icon">
 				  <div class="card-body" style="text-align:center;">
-					<h5 class="card-title">COVID-19 App</h5>
+					<h5 class="card-title">Image Repository</h5>
 	  
 					<button type="button" class="btn btn-outline-dark" style="text-align:center;" data-toggle="modal" data-target="#modal1">
 					  +
 					</button>
 	  
 					<div class="modal fade" id="modal1">
+					  <div class="modal-dialog modal-lg">
+						<div class="modal-content" style="text-align:left;">
+						  <div class="modal-header">
+							<h1>Image Repository</h1>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							  <span aria-hidden="true">&times;</span>
+							</button>
+						  </div>
+						  <div class="modal-body">
+							<p><b>Technology Used: Python, Django, PostgreSQL, Google Cloud Vision API, Heroku, AWS</b></p>
+							<p>
+								This image repository application is built using Django and Python. Users can upload images, download, archive, 
+								and search for images that have been uploaded into the repo. Using object detection (cvlib by default and 
+								Google Vision API if the credentials are provided), the image will also have suggested tags attached to it that 
+								users can use to find the uploaded images. This application uses Heroku and AWS S3 for image hosting and scalability.
+							</p>
+						  </div>
+						  <div class="modal-footer" style="text-align:left;">
+							<a href="https://github.com/sharjilm/Image-Repository">Github</a>
+							<a href="https://imagerepoweb.herokuapp.com/">Live Demo</a>
+						  </div>
+						</div>
+					  </div>
+					</div>
+	  
+				  </div>
+				</div>
+			</div>
+			
+			<!-- COVID App Card -->
+			<div class="col-md-6 col-lg-4" style="margin-top:2%">
+				<div class="card">
+				  <img class="card-img-top" src="img/covid19_3.png" alt="COVID-19 icon">
+				  <div class="card-body" style="text-align:center;">
+					<h5 class="card-title">COVID-19 App</h5>
+	  
+					<button type="button" class="btn btn-outline-dark" style="text-align:center;" data-toggle="modal" data-target="#modal2">
+					  +
+					</button>
+	  
+					<div class="modal fade" id="modal2">
 					  <div class="modal-dialog modal-lg">
 						<div class="modal-content" style="text-align:left;">
 						  <div class="modal-header">
@@ -125,48 +166,10 @@
 				</div>
 			</div>
 
-			<!-- Database Card -->
-			<div class="col-md-6 col-lg-4" style="margin-top:2%">
-				<div class="card">
-				  <img class="card-img-top" src="img/euro2016.png" alt="Euro 2016 logo">
-				  <div class="card-body" style="text-align:center;">
-					<h5 class="card-title">UEFA Euro 2016 Database</h5>
-	  
-					<button type="button" class="btn btn-outline-dark" style="text-align:center;" data-toggle="modal" data-target="#modal2">
-					  +
-					</button>
-	  
-					<div class="modal fade" id="modal2">
-					  <div class="modal-dialog modal-lg">
-						<div class="modal-content" style="text-align:left;">
-						  <div class="modal-header">
-							<h1>UEFA Euro 2016 Database</h1>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							  <span aria-hidden="true">&times;</span>
-							</button>
-						  </div>
-						  <div class="modal-body">
-							<p><b>Technology Used: SQL</b></p>
-							<p>
-								A database that stores all information about the UEFA Euro 2016 football/soccer tournament, written in SQL. 
-								The code is written to run on IBM's DB2 relational database.
-							</p>
-						  </div>
-						  <div class="modal-footer" style="text-align:left;">
-							<a href="https://github.com/sharjilm/UEFA-Euro-2016-Database">Github</a>
-						  </div>
-						</div>
-					  </div>
-					</div>
-	  
-				  </div>
-				</div>
-			</div>
-
 			<!-- Personal Website Card -->
 			<div class="col-md-6 col-lg-4" style="margin-top:2%">
 				<div class="card">
-				  <img class="card-img-top" src="img/website.png" alt="Website logo">
+				  <img class="card-img-top" src="img/website.png" alt="Website icon">
 				  <div class="card-body" style="text-align:center;">
 					<h5 class="card-title">Personal Website</h5>
 	  
@@ -184,7 +187,7 @@
 							</button>
 						  </div>
 						  <div class="modal-body">
-							<p><b>Technology Used: HTML, CSS, and JavaScript</b></p>
+							<p><b>Technology Used: HTML, CSS, JavaScript, Bootstrap</b></p>
 							<p>
 							  The website you're viewing right now!  
 							  Built from scratch with HTML, CSS, and JavaScript to showcase my personal portfolio.
